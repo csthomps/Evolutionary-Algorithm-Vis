@@ -84,9 +84,9 @@ def smart_generate(grid2,grid2_1):
         for row in range(ROWS):
             for col in range(COLS):
                 if comparison_grid[row][col]: # if the two best from last generation are the same 
-                    if random.randint(0,50) < 45: # 1 in 50 chance to just keep same 
+                    if random.randint(0,50) < 45: # 45 in 50 chance to just keep same 
                         grid2_new[i][row][col] = grid2[row][col]
-                    else: # 49 in 50 chance to change
+                    else: # 5 in 50 chance to change
                         grid2_new[i][row][col] = not grid2[row][col]
                 else:
                     if random.randint(0,1) == 0:
