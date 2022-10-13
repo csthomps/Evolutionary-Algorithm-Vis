@@ -7,3 +7,5 @@ Then it uses those two inputs to create a new generation to get closer
 Warning: depending on the grid dimensions you choose, display can look a bit wonky.
 
 For example: recreated a 9x9 image in only 46 generations with a 5000 generation size
+
+(And yes, comments are terrible because I built it in like an hour for fun)
