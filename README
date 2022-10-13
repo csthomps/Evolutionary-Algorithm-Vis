@@ -1,0 +1,9 @@
+Uses bit image to kind of visualize how a genetic algorithm works
+
+AI is a very primitive, homemade approach to impolementing a genetic algorithm
+AI has no information about the answer except the closest two results of the last generations
+Then it uses those two inputs to create a new generation to get closer
+
+Warning: depending on the grid dimensions you choose, display can look a bit wonky.
+
+For example: recreated a 9x9 image in only 46 generations with a 5000 generation size
